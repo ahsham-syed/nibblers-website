@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #FF6B35;
+  --color-brand-blue: #004E98;
+  --color-brand-pink: #FF006E;
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-serif: "Instrument Serif", serif;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-slate-900 font-sans;
+  }
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
